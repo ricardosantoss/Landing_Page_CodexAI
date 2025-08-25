@@ -1,21 +1,22 @@
 {
   "name": "codex-ai-landing-page",
-  "private": true,
   "version": "1.0.0",
+  "private": true,
   "type": "module",
+  "engines": { "node": ">=18.17" },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --port 5173"
   },
   "dependencies": {
-    "lucide-react": "^0.309.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.2.1",
-    "tailwindcss": "^3.4.1",
-    "vite": "^5.0.11"
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.0.0",
+    "tailwindcss-animate": "^1.0.7",
+    "vite": "^5.4.9"
   }
 }
